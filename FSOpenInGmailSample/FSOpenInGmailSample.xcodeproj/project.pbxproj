@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538810B01843F77600459754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538810AF1843F77600459754 /* Foundation.framework */; };
+		538810B21843F77600459754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538810B11843F77600459754 /* CoreGraphics.framework */; };
+		538810B41843F77600459754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538810B31843F77600459754 /* UIKit.framework */; };
+		538810BA1843F77700459754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 538810B81843F77700459754 /* InfoPlist.strings */; };
+		538810BC1843F77700459754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 538810BB1843F77700459754 /* main.m */; };
+		538810C01843F77700459754 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 538810BF1843F77700459754 /* FSAppDelegate.m */; };
+		538810C31843F77700459754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538810C11843F77700459754 /* Main.storyboard */; };
+		538810C61843F77700459754 /* FSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538810C51843F77700459754 /* FSViewController.m */; };
+		538810C81843F77700459754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538810C71843F77700459754 /* Images.xcassets */; };
+		538810E61843F79700459754 /* FSOpenInGmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 538810E51843F79700459754 /* FSOpenInGmail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		538810AC1843F77600459754 /* FSOpenInGmailSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSOpenInGmailSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538810AF1843F77600459754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		538810B11843F77600459754 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		538810B31843F77600459754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		538810B71843F77700459754 /* FSOpenInGmailSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSOpenInGmailSample-Info.plist"; sourceTree = "<group>"; };
+		538810B91843F77700459754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		538810BB1843F77700459754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		538810BD1843F77700459754 /* FSOpenInGmailSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSOpenInGmailSample-Prefix.pch"; sourceTree = "<group>"; };
+		538810BE1843F77700459754 /* FSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		538810BF1843F77700459754 /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		538810C21843F77700459754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538810C41843F77700459754 /* FSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSViewController.h; sourceTree = "<group>"; };
+		538810C51843F77700459754 /* FSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSViewController.m; sourceTree = "<group>"; };
+		538810C71843F77700459754 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		538810CE1843F77700459754 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		538810E41843F79700459754 /* FSOpenInGmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSOpenInGmail.h; path = ../../FSOpenInGmail.h; sourceTree = "<group>"; };
+		538810E51843F79700459754 /* FSOpenInGmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSOpenInGmail.m; path = ../../FSOpenInGmail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538810A91843F77600459754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538810B21843F77600459754 /* CoreGraphics.framework in Frameworks */,
+				538810B41843F77600459754 /* UIKit.framework in Frameworks */,
+				538810B01843F77600459754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538810A31843F77600459754 = {
+			isa = PBXGroup;
+			children = (
+				538810B51843F77700459754 /* FSOpenInGmailSample */,
+				538810AE1843F77600459754 /* Frameworks */,
+				538810AD1843F77600459754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538810AD1843F77600459754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538810AC1843F77600459754 /* FSOpenInGmailSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538810AE1843F77600459754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				538810AF1843F77600459754 /* Foundation.framework */,
+				538810B11843F77600459754 /* CoreGraphics.framework */,
+				538810B31843F77600459754 /* UIKit.framework */,
+				538810CE1843F77700459754 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		538810B51843F77700459754 /* FSOpenInGmailSample */ = {
+			isa = PBXGroup;
+			children = (
+				538810E41843F79700459754 /* FSOpenInGmail.h */,
+				538810E51843F79700459754 /* FSOpenInGmail.m */,
+				538810BE1843F77700459754 /* FSAppDelegate.h */,
+				538810BF1843F77700459754 /* FSAppDelegate.m */,
+				538810C11843F77700459754 /* Main.storyboard */,
+				538810C41843F77700459754 /* FSViewController.h */,
+				538810C51843F77700459754 /* FSViewController.m */,
+				538810C71843F77700459754 /* Images.xcassets */,
+				538810B61843F77700459754 /* Supporting Files */,
+			);
+			path = FSOpenInGmailSample;
+			sourceTree = "<group>";
+		};
+		538810B61843F77700459754 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				538810B71843F77700459754 /* FSOpenInGmailSample-Info.plist */,
+				538810B81843F77700459754 /* InfoPlist.strings */,
+				538810BB1843F77700459754 /* main.m */,
+				538810BD1843F77700459754 /* FSOpenInGmailSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538810AB1843F77600459754 /* FSOpenInGmailSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538810DE1843F77700459754 /* Build configuration list for PBXNativeTarget "FSOpenInGmailSample" */;
+			buildPhases = (
+				538810A81843F77600459754 /* Sources */,
+				538810A91843F77600459754 /* Frameworks */,
+				538810AA1843F77600459754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSOpenInGmailSample;
+			productName = FSOpenInGmailSample;
+			productReference = 538810AC1843F77600459754 /* FSOpenInGmailSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538810A41843F77600459754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Felix Schulze";
+			};
+			buildConfigurationList = 538810A71843F77600459754 /* Build configuration list for PBXProject "FSOpenInGmailSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538810A31843F77600459754;
+			productRefGroup = 538810AD1843F77600459754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538810AB1843F77600459754 /* FSOpenInGmailSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538810AA1843F77600459754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538810C81843F77700459754 /* Images.xcassets in Resources */,
+				538810BA1843F77700459754 /* InfoPlist.strings in Resources */,
+				538810C31843F77700459754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538810A81843F77600459754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538810BC1843F77700459754 /* main.m in Sources */,
+				538810C01843F77700459754 /* FSAppDelegate.m in Sources */,
+				538810E61843F79700459754 /* FSOpenInGmail.m in Sources */,
+				538810C61843F77700459754 /* FSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		538810B81843F77700459754 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538810B91843F77700459754 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		538810C11843F77700459754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538810C21843F77700459754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538810DC1843F77700459754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		538810DD1843F77700459754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538810DF1843F77700459754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSOpenInGmailSample/FSOpenInGmailSample-Prefix.pch";
+				INFOPLIST_FILE = "FSOpenInGmailSample/FSOpenInGmailSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		538810E01843F77700459754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSOpenInGmailSample/FSOpenInGmailSample-Prefix.pch";
+				INFOPLIST_FILE = "FSOpenInGmailSample/FSOpenInGmailSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538810A71843F77600459754 /* Build configuration list for PBXProject "FSOpenInGmailSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538810DC1843F77700459754 /* Debug */,
+				538810DD1843F77700459754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538810DE1843F77700459754 /* Build configuration list for PBXNativeTarget "FSOpenInGmailSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538810DF1843F77700459754 /* Debug */,
+				538810E01843F77700459754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538810A41843F77600459754 /* Project object */;
+}
