@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.9"
   s.summary      = "FSOpenInGmail is a tool for sending mails with Gmail iOS App."
   s.homepage     = "https://github.com/x2on/FSOpenInGmail"
+  s.social_media_url = 'https://twitter.com/x2on'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Felix Schulze" => "code@felixschulze.de" }
   s.source       = {
