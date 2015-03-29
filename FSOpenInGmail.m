@@ -3,7 +3,7 @@
 //  OpenInGmail
 //
 //  Created by Felix Schulze on 25.11.13.
-//  Copyright (c) 2013 Felix Schulze. All rights reserved.
+//  Copyright (c) 2013-2015 Felix Schulze. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal

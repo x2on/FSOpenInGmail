@@ -3,7 +3,7 @@
 //  OpenInGmail
 //
 //  Created by Felix Schulze on 25.11.13.
-//  Copyright (c) 2013 Felix Schulze. All rights reserved.
+//  Copyright (c) 2013-2015 Felix Schulze. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -28,8 +28,23 @@
 
 @interface FSOpenInGmail : NSObject
 
+/**
+ *  Check if Google Mail App is installed.
+ *
+ *  @return true if Google Mail App is installed
+ */
 + (BOOL)canSendGmail;
 
+/**
+ *  Send Email with Google Mail App
+ *  It automatically checks if Google Mail App is installed.
+ *
+ *  @param to      receiver email adress
+ *  @param subject email subject
+ *  @param body    email body
+ *
+ *  @return true if Google Mail App opend successful
+ */
 + (BOOL)sendEmailTo:(NSString *)to subject:(NSString *)subject body:(NSString *)body;
 
 @end
