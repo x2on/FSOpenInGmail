@@ -7,6 +7,15 @@ Using [CocoaPods](http://cocoapods.org/):
 
 `pod 'FSOpenInGmail', '~> 1.0'`
 
+## iOS 9
+For iOS 9 you have to add the following to your `Info.plist`:
+```xml
+<key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>googlegmail</string>
+</array>
+```
+
 ## Usage
 
 Check if Gmail app is installed: 
