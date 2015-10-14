@@ -5,7 +5,7 @@ FSOpenInGmail is a tool for sending mails with Gmail iOS App.
 ## Install
 Using [CocoaPods](http://cocoapods.org/):
 
-`pod 'FSOpenInGmail', '~> 1.0'`
+`pod 'FSOpenInGmail', '~> 1.1'`
 
 ## iOS 9
 For iOS 9 you have to add the following to your `Info.plist`:
