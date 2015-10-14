@@ -41,6 +41,13 @@ static NSString *encodeByAddingPercentEscapes(NSString *input) {
 @implementation FSOpenInGmail
 
 + (BOOL)canSendGmail {
+#ifdef __IPHONE_9_0
+    NSArray *applicationQuerySchemes = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"LSApplicationQueriesSchemes"];
+    if (![applicationQuerySchemes containsObject:@"googlegmail"])
+    {
+        NSLog(@"FSOpenInGmail: Please add \"googlemail\" to \"LSApplicationQueriesSchemes\" in your Info.plist");
+    }
+#endif
     return [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:GMAIL_URL_SCHEME]];
 }
 

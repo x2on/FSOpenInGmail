@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FSOpenInGmail"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "FSOpenInGmail is a tool for sending mails with Gmail iOS App."
   s.homepage     = "https://github.com/x2on/FSOpenInGmail"
   s.social_media_url = 'https://twitter.com/x2on'
